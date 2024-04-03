@@ -1,0 +1,150 @@
+.home {
+  width: 100%;
+  height: auto;
+  margin: 122px 0px;
+
+  .home_content {
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+
+    .home_title {
+      font-weight: bold;
+      font-size: 68px;
+      color: #F65038;
+      line-height: 76px;
+    }
+    
+    .home_text {
+      color: #3C2695;
+      font-size: 18px;
+    }
+
+    Button {
+      color: #F65038;
+      border: 1px solid #F65038;
+      border-radius: 50px;
+      margin-top: 36px;
+      font-size: 16px;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  .home_img {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.about {
+  background: linear-gradient(to top, #D191BB, #B8AFEB, #E1E0E7);
+  width: 100%;
+  height: auto;
+  padding: 100px 0px;
+
+  .about_content {
+
+    .about_title {
+      color: #F65038;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .about_text {
+      color: #4734A2;
+      font-size: 20px;
+      margin: 0% 10%;
+      margin-top: 4%;
+    }
+  }
+
+  .form {
+    width: 80%;
+    margin: 0% 10%;
+    margin-top: 6%;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    
+    .form-input {
+      padding: 10px;
+    }
+
+    .send_btn {
+      width: 100%;
+      text-align: center;
+      
+      Button {
+        border-radius: 50px;
+        background-color: #F65038;
+        border: none;
+        color: white;
+      }
+    }
+    
+  }
+}
+.footer {
+  width: 100%;
+  padding: 60px;
+  background-image: url(../img/footer.png);
+  background-size: 100% 100%;
+
+  .footer_content {
+    width: 100%;
+    height: auto;
+
+    .footer_title {
+      font-size: 39px;
+      color: #F65038;
+      font-weight: bold;
+     
+      .footer_title_color {
+        color: #9F98D7;
+      }
+    }
+
+    .footer_text {
+      color: white;
+      font-size: 18px;
+    }
+
+    .footer_action {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      gap: 10px;
+    }
+  }
+  .contact {
+    height: auto;
+    
+    .contact_title {
+      color: white;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .contact_item {
+      color: white;
+      padding: 3px 0px;
+      font-size: 18px;
+    }
+    .city {
+      display: flex;
+    }
+    .action_container {
+      display: flex;
+      flex-direction: row;
+    }
+    .action_menu {
+      padding: 0px 8px 0px 0px;
+    }
+
+  }
+}

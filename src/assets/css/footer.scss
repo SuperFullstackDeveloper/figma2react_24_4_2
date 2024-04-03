@@ -1,0 +1,14 @@
+.contact_title{
+	border-bottom:solid !important;
+	width: 70%;
+}
+@media only screen and (max-width: 991px) {
+	.contact_title{
+		width: 35%;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.contact_title{
+		width: 35%;
+	}
+}
